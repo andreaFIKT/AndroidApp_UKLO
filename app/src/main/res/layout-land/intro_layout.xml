@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/pozadina"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="345dp"
+            android:layout_height="172dp"
+            android:id="@+id/introImage"
+            android:layout_gravity="center_horizontal|top"
+            android:background="@drawable/sv_kliment_ohridski_intro"/>
+
+        <ListView
+            android:layout_width="253dp"
+            android:layout_height="118dp"
+            android:id="@+id/introSelectLanguage"
+            android:layout_gravity="left|bottom" />
+
+        <Button
+            android:layout_width="178dp"
+            android:layout_height="58dp"
+            android:text="continue..."
+            android:id="@+id/btnContinue"
+            android:background="#a0672e"
+            android:layout_gravity="right|bottom" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/txt_selectLanguage"
+            android:id="@+id/selectLanguageLabel"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:gravity="bottom" />
+    </FrameLayout>
+</LinearLayout>

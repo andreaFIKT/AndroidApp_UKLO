@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:id="@+id/webViewLoc2"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="@string/btnMore"
+        android:id="@+id/btnMoreLoc2"
+        android:layout_gravity="left" />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="@string/btnLess"
+        android:id="@+id/btnLessLoc2"
+        android:layout_gravity="left" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Saint Clements Path</string>
+    <string name="txt_selectLanguage">Choose language</string>
+
+    <string-array name="language">
+        <item>Macedonian</item>
+        <item>English</item>
+    </string-array>
+    <string name="toolBar">St. Kliment Ohridski</string>
+    <string name="map">Map</string>
+    <string name="continueB">continue...</string>
+    <string name="changeLanguage">Change language</string>
+    <string name="loc1">Saint Pantelejmon</string>
+    <string name="loc2">Upper Gate</string>
+    <string name="loc3">Car Samoils Fortress</string>
+    <string name="loc4">Saint Demetrius</string>
+    <string name="loc5">Holy Mary Peribleptos</string>
+    <string name="loc6">Saints Constantine and Helen</string>
+    <string name="loc7">Church "Small St. Vrach" "St. Cosmas and Damian"</string>
+    <string name="loc8">Small Saint Clement</string>
+    <string name="loc9">Holy Mother Bolnichka</string>
+    <string name="loc10">Saint Nikola Bolnichki</string>
+    <string name="loc11">Saint Sophia</string>
+    <string name="loc12">Church of St.John the Theologian-at Kaneo</string>
+    <string name="loc13">Saint Spas, village Leskoec</string>
+    <string name="loc14">Пресвета Богородица, с. Велестово</string>
+    <string name="loc15">Location 15</string>
+    <string name="loc16">Saint Zaum</string>
+    <string name="loc17">Monastery Saint Zaum Ohrid</string>
+    <string name="loc18">Monastery of Kalista</string>
+    <string name="loc19">Saint Archangel Michael</string>
+
+    <string name="loc1_malaTabla_link_offline">file:///android_asset/mali_tabli/plaosnik.html</string>
+    <string name="loc2_malaTabla_link_offline">file:///android_asset/mali_tabli/gorna-porta.html</string>
+    <string name="loc3_malaTabla_link_offline">file:///android_asset/mali_tabli/samuilova-tvrdina.html</string>
+    <string name="loc4_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-dimitrija.html</string>
+    <string name="loc5_malaTabla_link_offline"></string>
+    <string name="loc6_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-konstantin-i-elena.html</string>
+    <string name="loc7_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-vraci.html</string>
+    <string name="loc8_malaTabla_link_offline">file:///android_asset/mali_tabli/mal-sv-kliment.html</string>
+    <string name="loc9_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-bogorodica-bolnicka.html</string>
+    <string name="loc10_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-nikola-bolnicki.html</string>
+    <string name="loc11_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-sofija.html</string>
+    <string name="loc12_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-jovan-kaneo.html</string>
+    <string name="loc13_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-spas-s-leskoec.html</string>
+    <string name="loc14_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-bogorodica-s-velestovo.html</string>
+    <string name="loc15_malaTabla_link_offline">file:///android_asset/mali_tabli/plaosnik.html</string>
+    <string name="loc16_malaTabla_link_offline">file:///android_asset/mali_tabli/bogorodica-zaumska.html</string>
+    <string name="loc17_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-naum.html</string>
+    <string name="loc18_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-bogorodica-kalista.html</string>
+    <string name="loc19_malaTabla_link_offline">file:///android_asset/mali_tabli/sv-arhangel-mihail.html</string>
+
+    <string name="loc1_golemaTabla_link_offline"></string>
+    <string name="loc2_golemaTabla_link_offline"></string>
+    <string name="loc3_golemaTabla_link_offline"></string>
+    <string name="loc4_golemaTabla_link_offline"></string>
+    <string name="loc5_golemaTabla_link_offline"></string>
+    <string name="loc6_golemaTabla_link_offline"></string>
+    <string name="loc7_golemaTabla_link_offline"></string>
+    <string name="loc8_golemaTabla_link_offline"></string>
+    <string name="loc9_golemaTabla_link_offline"></string>
+    <string name="loc10_golemaTabla_link_offline"></string>
+    <string name="loc11_golemaTabla_link_offline"></string>
+    <string name="loc12_golemaTabla_link_offline"></string>
+    <string name="loc13_golemaTabla_link_offline"></string>
+    <string name="loc14_golemaTabla_link_offline"></string>
+    <string name="loc15_golemaTabla_link_offline"></string>
+    <string name="loc16_golemaTabla_link_offline"></string>
+    <string name="loc17_golemaTabla_link_offline"></string>
+    <string name="loc18_golemaTabla_link_offline"></string>
+    <string name="loc19_golemaTabla_link_offline"></string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="btnMore">Show more</string>
+    <string name="btnLess">Show less</string>
+</resources>

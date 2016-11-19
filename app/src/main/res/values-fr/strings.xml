@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Suivant les traces de St. Kliment Ohridski</string>
+    <string name="txt_selectLanguage">Choisissez la langue</string>
+
+    <string-array name="language">
+        <item> Espain</item>
+        <item>Francais</item>
+        <item>English</item>
+    </string-array>
+    <string name="continueB">continue...</string>
+    <string name="map">Carte</string>
+
+
+    <string-array name="locations">
+        <item>ПлаошникFRA</item>
+        <item>Горна Порта</item>
+        <item>Самуилова тврдина</item>
+        <item>Св. Димитрија</item>
+        <item>Богородица Перивлепта</item>
+        <item>Св. Константин и Елена</item>
+        <item>Мал Св. Врачи</item>
+        <item>Мал Св. Климент</item>
+        <item>Богородица Болничка</item>
+        <item>Св. Никола Болнички</item>
+        <item>Св. Софија</item>
+        <item>Св. Јован Канео</item>
+        <item>Св. Спас, с. Лескоец</item>
+        <item>Пресвета Богородица, с. Велестово</item>
+        <item>Богородица Заумска</item>
+        <item>Св. Наум</item>
+        <item>Пресвета Богородица, Калишта</item>
+        <item>Архангел Михаил, Радожда</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Ouvrez le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer la navigation tiroir</string>
+
+    <string name="action_settings">Paramètres</string>
+    <string name="btnMore">montre plus </string>
+    <string name="btnLess">montre moins</string>
+</resources>

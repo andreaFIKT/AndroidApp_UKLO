@@ -1,0 +1,14 @@
+<resources>
+    <string name="izberi_jazik">Избери јазик</string>
+
+    <string-array name="jazik">
+        <item>  </item>
+        <item>Македонски</item>
+        <item>Англиски</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="kopceProdolzi">продолжи...</string>
+
+</resources>

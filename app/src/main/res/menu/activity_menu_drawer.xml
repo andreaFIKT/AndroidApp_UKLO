@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/changeLanguage"
+            android:icon="@drawable/rsz_icon_32"
+            android:title="@string/changeLanguage"
+            />
+        <item
+            android:id="@+id/google_map"
+            android:icon="@drawable/map_icon"
+            android:title="@string/map" />
+        <item
+            android:id="@+id/location_1"
+            android:icon="@drawable/rsz_num_1"
+            android:title="@string/loc1" />
+        <item
+            android:id="@+id/location_2"
+            android:icon="@drawable/rsz_num_2"
+            android:title="@string/loc2" />
+        <item
+            android:id="@+id/location_3"
+            android:icon="@drawable/rsz_1num_3"
+            android:title="@string/loc3" />
+        <item
+            android:id="@+id/location_4"
+            android:icon="@drawable/rsz_num_4"
+            android:title="@string/loc4" />
+        <item
+            android:id="@+id/location_5"
+            android:icon="@drawable/rsz_num_5"
+            android:title="@string/loc5" />
+        <item
+            android:id="@+id/location_6"
+            android:icon="@drawable/rsz_num_6"
+            android:title="@string/loc6" />
+        <item
+            android:id="@+id/location_7"
+            android:icon="@drawable/rsz_num_7"
+            android:title="@string/loc7" />
+        <item
+            android:id="@+id/location_8"
+            android:icon="@drawable/rsz_num_8"
+            android:title="@string/loc8" />
+        <item
+            android:id="@+id/location_9"
+            android:icon="@drawable/rsz_num_9"
+            android:title="@string/loc9" />
+        <item
+            android:id="@+id/location_10"
+            android:icon="@drawable/rsz_num_10"
+            android:title="@string/loc10" />
+        <item
+            android:id="@+id/location_11"
+            android:icon="@drawable/rsz_num_11"
+            android:title="@string/loc11" />
+        <item
+            android:id="@+id/location_12"
+            android:icon="@drawable/rsz_num_12"
+            android:title="@string/loc12" />
+        <item
+            android:id="@+id/location_13"
+            android:icon="@drawable/rsz_1num_13"
+            android:title="@string/loc13" />
+        <item
+            android:id="@+id/location_14"
+            android:icon="@drawable/rsz_num_14"
+            android:title="@string/loc14" />
+        <item
+            android:id="@+id/location_15"
+            android:icon="@drawable/rsz_num_15"
+            android:title="@string/loc15" />
+        <item
+            android:id="@+id/location_16"
+            android:icon="@drawable/rsz_num_16"
+            android:title="@string/loc16" />
+        <item
+            android:id="@+id/location_17"
+            android:icon="@drawable/rsz_1num_17"
+            android:title="@string/loc17" />
+        <item
+            android:id="@+id/location_18"
+            android:icon="@drawable/rsz_num_18"
+            android:title="@string/loc18" />
+        <item
+            android:id="@+id/location_19"
+            android:icon="@drawable/rsz_num_19_t"
+            android:title="@string/loc19" />
+    </group>
+
+</menu>

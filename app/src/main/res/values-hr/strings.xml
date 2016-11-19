@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Francusko ime na app</string>
+    <string name="txt_selectLanguage">Izberi jazik na francuski</string>
+
+    <string-array name="language">
+        <item> Espain</item>
+        <item>Francais</item>
+        <item>English</item>
+    </string-array>
+    <string name="continueB">continue...</string>
+
+
+    <string-array name="locations">
+        <item>ПлаошникFRA</item>
+        <item>Горна Порта</item>
+        <item>Самуилова тврдина</item>
+        <item>Св. Димитрија</item>
+        <item>Богородица Перивлепта</item>
+        <item>Св. Константин и Елена</item>
+        <item>Мал Св. Врачи</item>
+        <item>Мал Св. Климент</item>
+        <item>Богородица Болничка</item>
+        <item>Св. Никола Болнички</item>
+        <item>Св. Софија</item>
+        <item>Св. Јован Канео</item>
+        <item>Св. Спас, с. Лескоец</item>
+        <item>Пресвета Богородица, с. Велестово</item>
+        <item>Богородица Заумска</item>
+        <item>Св. Наум</item>
+        <item>Пресвета Богородица, Калишта</item>
+        <item>Архангел Михаил, Радожда</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="btnMore">montre moins</string>
+    <string name="btnLess">montre plus</string>
+</resources>
