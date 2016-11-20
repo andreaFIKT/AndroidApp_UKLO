@@ -31,7 +31,7 @@ public class Location19Fragment extends android.support.v4.app.Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.location_19_fragment, container, false);
-        web2 = (WebView) v.findViewById(R.id.webViewLoc18);
+        web2 = (WebView) v.findViewById(R.id.webViewLoc19);
         connA = checkNetworkConnection(getContext());
         malaLinkOff = getResources().getString(R.string.loc19_malaTabla_link_offline);
         golemaLinkOff = getResources().getString(R.string.loc19_golemaTabla_link_offline);
