@@ -1,0 +1,38 @@
+body{
+	font-size: 20px;
+}
+
+#top {
+	display: none;
+}
+
+h1:nth-of-type(1) {
+   display: none;
+}
+
+h1{
+	margin-left:10%;
+	width:80%;
+	text-align: center;
+}
+
+p{
+	margin-left:10%;
+	margin-right:10%;
+	text-align: justify;
+}
+
+.galery {
+	margin: 0 auto !important;
+	width: 80%;
+
+}
+
+
+.example-image{
+	width: 100% !important;
+}
+
+#main-menu {
+	display: none;
+}

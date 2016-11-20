@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">Свети Климент</string>
     <string name="txt_selectLanguage">Изберете јазик</string>
 
     <string-array name="language">
@@ -25,7 +25,7 @@
     <string name="loc12">Св. Јован Канео</string>
     <string name="loc13">Св. Спас, с. Лескоец</string>
     <string name="loc14">Пресвета Богородица, с. Велестово</string>
-    <string name="loc15">Локација 5</string>
+    <string name="loc15">Богородица Калишта</string>
     <string name="loc16">Богородица Заумска</string>
     <string name="loc17">Св. Наум</string>
     <string name="loc18">Пресвета Богородица, Калишта</string>
