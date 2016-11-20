@@ -23,7 +23,8 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
     Button buttonMore;
     Button buttonLess;
     boolean connA;
-    String linkOff;
+    String malaLinkOff;
+    String golemaLinkOff;
 
     public Location4Fragment() {
         // Required empty public constructor
@@ -34,7 +35,9 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
         View v = inflater.inflate(R.layout.location_4_fragment, container, false);
         web4 = (WebView) v.findViewById(R.id.webViewLoc4);
         connA = checkNetworkConnection(getContext());
-        linkOff = getResources().getString(R.string.loc4_malaTabla_link_offline);
+        malaLinkOff = getResources().getString(R.string.loc4_malaTabla_link_offline);
+        golemaLinkOff = getResources().getString(R.string.loc4_golemaTabla_link_offline);
+
         if(connA)
         {
             web4.setHorizontalScrollBarEnabled(true);
@@ -44,7 +47,7 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
         else
         {
             web4.setHorizontalScrollBarEnabled(true);
-            web4.loadUrl(linkOff);
+            web4.loadUrl(malaLinkOff);
             web4.requestFocus();
         }
 
@@ -61,7 +64,7 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
                 else
                 {
                     web4.setHorizontalScrollBarEnabled(true);
-                    web4.loadUrl(linkOff);
+                    web4.loadUrl(golemaLinkOff);
                     web4.requestFocus();
                 }
 
@@ -83,7 +86,7 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
                 {
                     web4.setWebViewClient(new WebViewClient());
                     web4.setHorizontalScrollBarEnabled(true);
-                    web4.loadUrl(linkOff);
+                    web4.loadUrl(malaLinkOff);
                     web4.requestFocus();
                 }
             }

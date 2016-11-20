@@ -22,7 +22,8 @@ public class Location3Fragment extends android.support.v4.app.Fragment {
     Button buttonMore;
     Button buttonLess;
     boolean connA;
-    String linkOff;
+    String malaLinkOff;
+    String golemaLinkOff;
 
     public Location3Fragment() {
         // Required empty public constructor
@@ -33,7 +34,8 @@ public class Location3Fragment extends android.support.v4.app.Fragment {
         View v = inflater.inflate(R.layout.location_3_fragment, container, false);
         web3 = (WebView) v.findViewById(R.id.webViewLoc3);
         connA = checkNetworkConnection(getContext());
-        linkOff = getResources().getString(R.string.loc3_malaTabla_link_offline);
+        malaLinkOff = getResources().getString(R.string.loc3_malaTabla_link_offline);
+        golemaLinkOff = getResources().getString(R.string.loc3_golemaTabla_link_offline);
         if(connA)
         {
             web3.setHorizontalScrollBarEnabled(true);
@@ -43,7 +45,7 @@ public class Location3Fragment extends android.support.v4.app.Fragment {
         else
         {
             web3.setHorizontalScrollBarEnabled(true);
-            web3.loadUrl(linkOff);
+            web3.loadUrl(malaLinkOff);
             web3.requestFocus();
         }
 
@@ -60,7 +62,7 @@ public class Location3Fragment extends android.support.v4.app.Fragment {
                 else
                 {
                     web3.setHorizontalScrollBarEnabled(true);
-                    web3.loadUrl(linkOff);
+                    web3.loadUrl(golemaLinkOff);
                     web3.requestFocus();
                 }
 
@@ -80,7 +82,7 @@ public class Location3Fragment extends android.support.v4.app.Fragment {
                 else
                 {
                     web3.setHorizontalScrollBarEnabled(true);
-                    web3.loadUrl(linkOff);
+                    web3.loadUrl(malaLinkOff);
                     web3.requestFocus();
                 }
 

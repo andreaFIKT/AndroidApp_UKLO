@@ -15,17 +15,18 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:layout_width="345dp"
-            android:layout_height="172dp"
+            android:layout_width="303dp"
+            android:layout_height="149dp"
             android:id="@+id/introImage"
             android:layout_gravity="center_horizontal|top"
-            android:background="@drawable/sv_kliment_ohridski_intro"/>
+            android:background="@drawable/app_icon"/>
 
         <ListView
-            android:layout_width="253dp"
-            android:layout_height="118dp"
+            android:layout_width="315dp"
+            android:layout_height="115dp"
             android:id="@+id/introSelectLanguage"
-            android:layout_gravity="left|bottom" />
+            android:layout_gravity="left|bottom"
+            android:layout_marginTop="40dp" />
 
         <Button
             android:layout_width="178dp"
@@ -42,6 +43,7 @@
             android:id="@+id/selectLanguageLabel"
             android:layout_gravity="center"
             android:textSize="25sp"
-            android:gravity="bottom" />
+            android:gravity="bottom"
+            android:layout_marginTop="15dp" />
     </FrameLayout>
 </LinearLayout>

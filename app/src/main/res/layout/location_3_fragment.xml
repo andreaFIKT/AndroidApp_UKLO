@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
 
     <WebView
         android:layout_width="match_parent"
         android:layout_height="420dp"
         android:id="@+id/webViewLoc3"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" />
 
     <Button
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/btnMore"
         android:id="@+id/btnMoreLoc3"
         android:layout_gravity="left" />
     <Button
-        android:layout_width="200dp"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="@string/btnLess"
         android:id="@+id/btnLessLoc3"

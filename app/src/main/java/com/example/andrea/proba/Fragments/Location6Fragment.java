@@ -22,7 +22,8 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
     Button buttonMore;
     Button buttonLess;
     boolean connA;
-    String linkOff;
+    String golemaLinkOff;
+    String malaLinkOff;
     public Location6Fragment() {
         // Required empty public constructor
     }
@@ -32,7 +33,8 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
         View v = inflater.inflate(R.layout.location_6_fragment, container, false);
         web6 = (WebView) v.findViewById(R.id.webViewLoc6);
         connA = checkNetworkConnection(getContext());
-        linkOff = getResources().getString(R.string.loc6_malaTabla_link_offline);
+        malaLinkOff = getResources().getString(R.string.loc6_malaTabla_link_offline);
+        golemaLinkOff = getResources().getString(R.string.loc6_golemaTabla_link_offline);
         if(connA)
         {
             web6.setHorizontalScrollBarEnabled(true);
@@ -42,7 +44,7 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
         else
         {
             web6.setHorizontalScrollBarEnabled(true);
-            web6.loadUrl(linkOff);
+            web6.loadUrl(malaLinkOff);
             web6.requestFocus();
         }
 
@@ -59,7 +61,7 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
                 else
                 {
                     web6.setHorizontalScrollBarEnabled(true);
-                    web6.loadUrl(linkOff);
+                    web6.loadUrl(golemaLinkOff);
                     web6.requestFocus();
                 }
 
@@ -79,7 +81,7 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
                 else
                 {
                     web6.setHorizontalScrollBarEnabled(true);
-                    web6.loadUrl(linkOff);
+                    web6.loadUrl(malaLinkOff);
                     web6.requestFocus();
                 }
 

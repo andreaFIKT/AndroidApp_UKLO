@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@drawable/pozadina">
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:layout_width="280dp"
-            android:layout_height="155dp"
+            android:layout_width="319dp"
+            android:layout_height="177dp"
             android:id="@+id/introImage"
             android:layout_alignParentTop="true"
             android:background="@drawable/app_icon"

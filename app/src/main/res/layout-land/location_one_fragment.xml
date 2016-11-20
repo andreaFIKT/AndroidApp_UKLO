@@ -10,7 +10,7 @@
 
         <WebView
             android:layout_width="match_parent"
-            android:layout_height="267dp"
+            android:layout_height="276dp"
             android:id="@+id/webView"
             android:layout_gravity="center_horizontal|top" />
 

@@ -6,11 +6,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="@drawable/pozadina">
+    android:background="@drawable/pozadina"
+    android:weightSum="1">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="350dp"
+        android:layout_height="300dp"
         android:id="@+id/introImage"
         android:layout_alignParentTop="true"
         android:background="@drawable/app_icon"
@@ -19,7 +20,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="Select Language"
         android:id="@+id/selectLanguageLabel"
         android:layout_below="@+id/introImage"
@@ -30,8 +31,9 @@
 
     <ListView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/introSelectLanguage"></ListView>
+        android:layout_height="105dp"
+        android:id="@+id/introSelectLanguage"
+        android:layout_weight="0.49"></ListView>
 
     <Button
         android:layout_width="match_parent"

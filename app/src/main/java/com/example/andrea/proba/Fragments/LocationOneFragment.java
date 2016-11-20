@@ -24,7 +24,8 @@ public class LocationOneFragment extends Fragment {
     Button buttonMore;
     Button buttonLess;
     boolean connA;
-    String linkOff1;
+    String malaLinkOff;
+    String golemaLinkOff;
 
     public LocationOneFragment() {
         // Required empty public constructor
@@ -36,7 +37,8 @@ public class LocationOneFragment extends Fragment {
         web1 = (WebView) v.findViewById(R.id.webView);
         Log.d("INTERNET", String.valueOf(checkNetworkConnection(getContext())));
         connA = checkNetworkConnection(getContext());
-        linkOff1 = getResources().getString(R.string.loc1_malaTabla_link_offline);
+        malaLinkOff = getResources().getString(R.string.loc1_malaTabla_link_offline);
+        golemaLinkOff = getResources().getString(R.string.loc1_golemaTabla_link_offline);
 
         if (connA == true)
 
@@ -49,7 +51,7 @@ public class LocationOneFragment extends Fragment {
         } else {
             web1.setWebViewClient(new WebViewClient());
             web1.setHorizontalScrollBarEnabled(true);
-            web1.loadUrl(linkOff1);
+            web1.loadUrl(malaLinkOff);
             web1.requestFocus();
         }
 
@@ -69,7 +71,7 @@ public class LocationOneFragment extends Fragment {
                 } else {
                     web1.setWebViewClient(new WebViewClient());
                     web1.setHorizontalScrollBarEnabled(true);
-                    web1.loadUrl(linkOff1);
+                    web1.loadUrl(golemaLinkOff);
                     web1.requestFocus();
                 }
 
@@ -92,7 +94,7 @@ public class LocationOneFragment extends Fragment {
                 } else {
                     web1.setWebViewClient(new WebViewClient());
                     web1.setHorizontalScrollBarEnabled(true);
-                    web1.loadUrl(linkOff1);
+                    web1.loadUrl(malaLinkOff);
                     web1.requestFocus();
                 }
             }
