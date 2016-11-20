@@ -38,7 +38,7 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
         if(connA)
         {
             web6.setHorizontalScrollBarEnabled(true);
-            web6.loadUrl("http://stklimentpath.fikt.edu.mk/sv-konstantin-i-elena.html");
+            web6.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-konstantin-i-elena.html");
             web6.requestFocus();
         }
         else
@@ -55,7 +55,7 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web6.setHorizontalScrollBarEnabled(true);
-                    web6.loadUrl("http://stklimentpath.fikt.edu.mk/sv-konstantin-i-elena.html");
+                    web6.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-konstantin-i-elena.html");
                     web6.requestFocus();
                 }
                 else
@@ -75,7 +75,7 @@ public class Location6Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web6.setHorizontalScrollBarEnabled(true);
-                    web6.loadUrl("http://stklimentpath.fikt.edu.mk/sv-konstantin-i-elena.html");
+                    web6.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-konstantin-i-elena.html");
                     web6.requestFocus();
                 }
                 else

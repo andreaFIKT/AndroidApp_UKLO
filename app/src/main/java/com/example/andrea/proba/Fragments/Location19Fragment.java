@@ -38,7 +38,7 @@ public class Location19Fragment extends android.support.v4.app.Fragment {
         if(connA)
         {
             web2.setHorizontalScrollBarEnabled(true);
-            web2.loadUrl("http://stklimentpath.fikt.edu.mk/sv-arhangel-mihail.html");
+            web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-arhangel-mihail.html");
             web2.requestFocus();
         }
         else
@@ -55,7 +55,7 @@ public class Location19Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/sv-arhangel-mihail.html");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-arhangel-mihail.html");
                     web2.requestFocus();
                 }
                 else
@@ -74,7 +74,7 @@ public class Location19Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/sv-arhangel-mihail.html");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-arhangel-mihail.html");
                     web2.requestFocus();
                 }
                 else

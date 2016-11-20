@@ -39,7 +39,7 @@ public class Location5Fragment extends android.support.v4.app.Fragment {
         if(connA)
         {
             web5.setHorizontalScrollBarEnabled(true);
-            web5.loadUrl("http://www.fikt.uklo.edu.mk");
+            web5.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/Perivlepta.html");
             web5.requestFocus();
         }
         else
@@ -52,16 +52,10 @@ public class Location5Fragment extends android.support.v4.app.Fragment {
         buttonMore.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                web5.getSettings().setJavaScriptEnabled(true);
-                web5.setWebViewClient(new WebViewClient());
-                web5.setHorizontalScrollBarEnabled(true);
-                web5.loadUrl("http://www.google.com");
-                web5.requestFocus();
-
                 if(connA)
                 {
                     web5.setHorizontalScrollBarEnabled(true);
-                    web5.loadUrl("http://www.google.com");
+                    web5.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/Perivlepta.html");
                     web5.requestFocus();
                 }
                 else
@@ -81,7 +75,7 @@ public class Location5Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web5.setHorizontalScrollBarEnabled(true);
-                    web5.loadUrl("http://www.fikt.uklo.edu.mk");
+                    web5.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/Perivlepta.html");
                     web5.requestFocus();
                 }
                 else

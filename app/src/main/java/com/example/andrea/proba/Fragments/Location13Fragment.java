@@ -39,7 +39,7 @@ public class Location13Fragment extends android.support.v4.app.Fragment {
         if(connA)
         {
             web2.setHorizontalScrollBarEnabled(true);
-            web2.loadUrl("http://stklimentpath.fikt.edu.mk/sv-spas-s-leskoec.html");
+            web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-spas-s-leskoec.html");
             web2.requestFocus();
         }
         else
@@ -55,7 +55,7 @@ public class Location13Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/sv-spas-s-leskoec.html");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-spas-s-leskoec.html");
                     web2.requestFocus();
                 }
                 else
@@ -75,7 +75,7 @@ public class Location13Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/sv-spas-s-leskoec.html");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-spas-s-leskoec.html");
                     web2.requestFocus();
                 }
                 else

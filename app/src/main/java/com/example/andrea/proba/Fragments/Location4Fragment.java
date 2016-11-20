@@ -41,7 +41,7 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
         if(connA)
         {
             web4.setHorizontalScrollBarEnabled(true);
-            web4.loadUrl("http://stklimentpath.fikt.edu.mk/Sv.Dimitrija.html");
+            web4.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/Sv.Dimitrija.html");
             web4.requestFocus();
         }
         else
@@ -58,7 +58,7 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web4.setHorizontalScrollBarEnabled(true);
-                    web4.loadUrl("http://stklimentpath.fikt.edu.mk/Sv.Dimitrija.html");
+                    web4.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/Sv.Dimitrija.html");
                     web4.requestFocus();
                 }
                 else
@@ -79,7 +79,7 @@ public class Location4Fragment extends android.support.v4.app.Fragment {
                 {
                     web4.setWebViewClient(new WebViewClient());
                     web4.setHorizontalScrollBarEnabled(true);
-                    web4.loadUrl("http://stklimentpath.fikt.edu.mk/Sv.Dimitrija.html");
+                    web4.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/Sv.Dimitrija.html");
                     web4.requestFocus();
                 }
                 else

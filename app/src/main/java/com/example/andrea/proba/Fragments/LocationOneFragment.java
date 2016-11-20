@@ -2,6 +2,7 @@ package com.example.andrea.proba.Fragments;
 
 import android.app.Service;
 import android.content.Context;
+import android.content.res.Configuration;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
@@ -26,6 +27,7 @@ public class LocationOneFragment extends Fragment {
     boolean connA;
     String malaLinkOff;
     String golemaLinkOff;
+    Configuration newConfig;
 
     public LocationOneFragment() {
         // Required empty public constructor
@@ -46,7 +48,7 @@ public class LocationOneFragment extends Fragment {
             web1.getSettings().setJavaScriptEnabled(true);
             web1.setWebViewClient(new WebViewClient());
             web1.setHorizontalScrollBarEnabled(true);
-            web1.loadUrl("http://stklimentpath.fikt.edu.mk/plaosnik.html");
+            web1.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/plaosnik.html");
             web1.requestFocus();
         } else {
             web1.setWebViewClient(new WebViewClient());
@@ -66,7 +68,7 @@ public class LocationOneFragment extends Fragment {
                     web1.getSettings().setJavaScriptEnabled(true);
                     web1.setWebViewClient(new WebViewClient());
                     web1.setHorizontalScrollBarEnabled(true);
-                    web1.loadUrl("http://stklimentpath.fikt.edu.mk/plaosnik.html");
+                    web1.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/plaosnik.html");
                     web1.requestFocus();
                 } else {
                     web1.setWebViewClient(new WebViewClient());
@@ -89,7 +91,7 @@ public class LocationOneFragment extends Fragment {
                     web1.getSettings().setJavaScriptEnabled(true);
                     web1.setWebViewClient(new WebViewClient());
                     web1.setHorizontalScrollBarEnabled(true);
-                    web1.loadUrl("http://stklimentpath.fikt.edu.mk/plaosnik.html");
+                    web1.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/plaosnik.html");
                     web1.requestFocus();
                 } else {
                     web1.setWebViewClient(new WebViewClient());

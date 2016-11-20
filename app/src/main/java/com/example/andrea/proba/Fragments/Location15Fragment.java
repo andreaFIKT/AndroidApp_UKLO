@@ -39,7 +39,7 @@ public class Location15Fragment extends android.support.v4.app.Fragment {
         if(connA)
         {
             web2.setHorizontalScrollBarEnabled(true);
-            web2.loadUrl("http://www.fikt.uklo.edu.mk");
+            web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/pestani.html");
             web2.requestFocus();
         }
         else
@@ -56,7 +56,7 @@ public class Location15Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://www.google.com");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/pestani.html");
                     web2.requestFocus();
                 }
                 else
@@ -76,7 +76,7 @@ public class Location15Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://www.fikt.uklo.edu.mk");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/pestani.html");
                     web2.requestFocus();
                 }
                 else

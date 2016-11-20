@@ -38,7 +38,7 @@ public class LocationTwoFragment extends android.support.v4.app.Fragment {
         golemaLinkOff = getResources().getString(R.string.loc2_golemaTabla_link_offline);
         if(connA==true) {
             web2.setHorizontalScrollBarEnabled(true);
-            web2.loadUrl("http://stklimentpath.fikt.edu.mk/gorna-porta.html");
+            web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/gorna-porta.html");
             web2.requestFocus();
         }
         else
@@ -54,7 +54,7 @@ public class LocationTwoFragment extends android.support.v4.app.Fragment {
             public void onClick(View view) {
                 if(connA==true) {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/gorna-porta.html");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/gorna-porta.html");
                     web2.requestFocus();
                 }
                 else
@@ -74,7 +74,7 @@ public class LocationTwoFragment extends android.support.v4.app.Fragment {
             public void onClick(View view) {
                 if(connA==true) {
                     web2.setHorizontalScrollBarEnabled(true);
-                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/gorna-porta.html");
+                    web2.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/gorna-porta.html");
                     web2.requestFocus();
                 }
                 else

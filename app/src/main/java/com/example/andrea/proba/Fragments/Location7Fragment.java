@@ -39,7 +39,7 @@ public class Location7Fragment extends android.support.v4.app.Fragment {
         if(connA)
         {
             web7.setHorizontalScrollBarEnabled(true);
-            web7.loadUrl("http://stklimentpath.fikt.edu.mk/sv-vraci.html");
+            web7.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-vraci.html");
             web7.requestFocus();
         }
        else
@@ -55,7 +55,7 @@ public class Location7Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web7.setHorizontalScrollBarEnabled(true);
-                    web7.loadUrl("http://stklimentpath.fikt.edu.mk/sv-vraci.html");
+                    web7.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-vraci.html");
                     web7.requestFocus();
                 }
                 else
@@ -74,7 +74,7 @@ public class Location7Fragment extends android.support.v4.app.Fragment {
                 if(connA)
                 {
                     web7.setHorizontalScrollBarEnabled(true);
-                    web7.loadUrl("http://stklimentpath.fikt.edu.mk/sv-vraci.html");
+                    web7.loadUrl("http://stklimentpath.fikt.edu.mk/golemi/sv-vraci.html");
                     web7.requestFocus();
                 }
                 else
