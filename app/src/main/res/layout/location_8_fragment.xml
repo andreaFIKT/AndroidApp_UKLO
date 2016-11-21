@@ -9,7 +9,8 @@
         android:layout_height="420dp"
         android:id="@+id/webViewLoc8"
         android:layout_gravity="center_horizontal"
-        android:layout_weight="0.73" />
+        android:layout_weight="0.73"
+        android:background="@drawable/pozadina"/>
 
     <Button
         android:layout_width="match_parent"
